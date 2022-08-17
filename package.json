@@ -2,9 +2,9 @@
   "name": "teste-api",
   "version": "1.0.0",
   "description": "",
-  "main": "./api/index.ts",
+  "main": "./api/index.js",
   "scripts": {
-    "start": "vercel dev",
+    "start": "node api/index.js",
     "deploy": "vercel deploy --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
